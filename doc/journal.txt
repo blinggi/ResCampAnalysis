@@ -1,0 +1,18 @@
+073113
+setting up projecttemplate for RNA analysis. Did this same analysis previously, but want to organize and repeat.
+put all the old stuff in a fold in this project called "oldAnalysis"
+use small code pieces (in 'src') to process
+1. munge and label columns and rows
+2. set up gene translations , entrez-bsu-symbol. have functions for these
+3. set up plotting functions for (small) gene lists
+4. set up large gene list (e.g. regulon) analysis
+
+-------
+8/14/13
+working on rna plotting/ to tables in
+ 'gene_expression_outputer.R' 
+for plotting outside (excel for paper)
+TODO: need to make entrez-to-bsu function next so that i can import the gene names from the entrez .csv file that i used for the protein analysis
+then will output a data frame for mean and a separate one for sd.
+can merge them outside maybe
+ 
